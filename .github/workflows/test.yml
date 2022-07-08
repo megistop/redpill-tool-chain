@@ -83,8 +83,8 @@ jobs:
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/blob/main/e1000/rpext-index.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/blob/main/e1000e/rpext-index.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/blob/main/vmxnet3/rpext-index.json
-          ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/master/ixgbe.vanilla/rpext-index.json
-          ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/master/ixgbevf/rpext-index.json
+          ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/tree/main/ixgbe/rpext-index.json
+          ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/tree/main/ixgbevf/rpext-index.json
       - name: 添加扩展驱动[ds918p]
         if: matrix.platform == 'ds918p'
         run: |
